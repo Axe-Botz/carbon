@@ -3,6 +3,7 @@ from pyrogram import Client
 API_ID = 7745211
 API_HASH = "2ea42beae4e2410ce32eeaec0bdfd18e"
 TOKEN = "6443975769:AAEmiiKJ76HncAoNfRTM0FGiQ8JBu7qklYY"
+OWNER_ID = 2145093972
 
 bot = Client(
   "CARBON",
