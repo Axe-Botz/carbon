@@ -1,8 +1,8 @@
 from pyrogram import Client
 
-API_ID =
-API_HASH = ""
-TOKEN = ""
+API_ID = 7745211
+API_HASH = "2ea42beae4e2410ce32eeaec0bdfd18e"
+TOKEN = "6443975769:AAEmiiKJ76HncAoNfRTM0FGiQ8JBu7qklYY"
 
 bot = Client(
   "CARBON",
