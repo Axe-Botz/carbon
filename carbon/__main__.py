@@ -63,7 +63,7 @@ async def carbon_func(_, message):
     m = await message.reply_text("🔄 | Processing....")
     carbon = await make_carbon(txt)
     await m.edit_text("🔄 | Processing....")
-    await pbot.send_photo(
+    await bot.send_photo(
         message.chat.id,
         photo=carbon,
         caption=f"✨ For More : @AxeBotz",
