@@ -82,3 +82,9 @@ async def carbon_func(_, message):
     )
     await m.delete()
     carbon.close()
+
+
+## ---------------------------------------------------- ##
+if __name__ == "__main__":
+  #loop.run_until_complete(start_bot())
+  idle()
