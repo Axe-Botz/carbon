@@ -62,7 +62,7 @@ def capture_err(func):
                 ),
             )
             for x in error_feedback:
-                await bot.send_message(x)
+                await bot.send_message(OWNER_ID, x)
             raise err
 
     return capture
