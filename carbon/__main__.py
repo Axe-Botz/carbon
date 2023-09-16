@@ -4,11 +4,15 @@ import traceback
 from io import BytesIO
 
 from functools import wraps
-from pyrogram import filters, Client
+from pyrogram import filters, idle
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from aiohttp import ClientSession
 
+from carbon import *
+
+## ---------------------------------------------------- ##
 
 async def make_carbon(code):
     url = "https://carbonara.solopov.dev/api/cook"
@@ -41,11 +45,19 @@ def capture_err(func):
                 ),
             )
             for x in error_feedback:
-                await bot.send_message(OWNER_ID, x)
+                await bot.send_message(x)
             raise err
 
     return capture
 
+
+## ---------------------------------------------------- ##
+
+@bot.on_message(filters.command("start"))
+async def start(_, message):
+  await message.reply_text(
+    text="""
+    """)
 
 @bot.on_message(filters.command("carbon"))
 @capture_err
