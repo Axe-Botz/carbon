@@ -56,7 +56,7 @@ def capture_err(func):
 @bot.on_message(filters.command("start"))
 async def start(_, message):
   await message.reply_text(
-    text=""Hello, I make carbon of your given text use /carbon to create."")
+    text="Hello, I make carbon of your given text use /carbon to create.")
 
 @bot.on_message(filters.command("carbon"))
 @capture_err
