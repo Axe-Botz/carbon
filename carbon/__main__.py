@@ -90,7 +90,7 @@ async def carbon_func(_, message):
             return await message.reply_text("**Syantax :-**\n\n/carbon Axe Botz")
     m = await message.reply_text("🔄 | Processing....")
     carbon = await make_carbon(txt)
-    await m.edit_text("🔄 | Processing....")
+    #await m.edit_text("🔄 | Processing....")
     await bot.send_photo(
         message.chat.id,
         photo=carbon,
