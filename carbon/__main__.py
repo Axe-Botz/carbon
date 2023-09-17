@@ -73,7 +73,13 @@ def capture_err(func):
 @bot.on_message(filters.command("start"))
 async def start(_, message):
   await message.reply_text(
-    text="Hello, I make carbon of your given text use /carbon to create.",
+    text="""**Hello **
+
+**I'm carbon generator. I can convert your text/reply to carbon.**
+
+**Syntax :-**
+`/carbon Axe Botz`
+    """,
     reply_markup=InlineKeyboardMarkup(
       [
         [
