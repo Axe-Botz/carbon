@@ -93,7 +93,7 @@ async def start(_, message):
           ),
           InlineKeyboardButton(
             text="🔗 Updates",
-            url=f""
+            url=f"https://t.me/AxeBotz"
           )
         ]
       ]
