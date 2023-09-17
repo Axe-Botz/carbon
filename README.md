@@ -15,7 +15,7 @@
 * `OWNER_ID` - Your ID
 
 ### 📤 Deploy
-<p><a href="https://heroku.com/deploy?template=https://github.com/Axe-Botz/carbon"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/Axe-Botz/carbon.git"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
 
 
 ### 👤 Contact Us
