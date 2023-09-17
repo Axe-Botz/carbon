@@ -1,3 +1,7 @@
+## © Axe Botz
+## © Team Axe
+## Developed By : @tfZeno
+
 import sys
 import traceback
 
@@ -73,7 +77,7 @@ def capture_err(func):
 @bot.on_message(filters.command("start"))
 async def start(_, message):
   await message.reply_text(
-    text="""**Hello **
+    text="""**Hello {message.from_user.mention()}**
 
 **I'm carbon generator. I can convert your text/reply to carbon.**
 
@@ -85,7 +89,7 @@ async def start(_, message):
         [
           InlineKeyboardButton(
             text="ℹ️ Source",
-            url=f""
+            url=f"https://github.com/Axe-Botz/carbon"
           ),
           InlineKeyboardButton(
             text="🔗 Updates",
