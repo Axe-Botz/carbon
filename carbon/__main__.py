@@ -73,7 +73,23 @@ def capture_err(func):
 @bot.on_message(filters.command("start"))
 async def start(_, message):
   await message.reply_text(
-    text="Hello, I make carbon of your given text use /carbon to create.")
+    text="Hello, I make carbon of your given text use /carbon to create.",
+    reply_markup=InlineKeyboardMarkup(
+      [
+        [
+          InlineKeyboardButton(
+            text="ℹ️ Source",
+            url=f""
+          ),
+          InlineKeyboardButton(
+            text="🔗 Updates",
+            url=f""
+          )
+        ]
+      ]
+    ),
+    disable_web_page_preview=True
+  )
 
 @bot.on_message(filters.command("carbon"))
 @capture_err
