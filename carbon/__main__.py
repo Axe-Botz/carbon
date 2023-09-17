@@ -77,7 +77,7 @@ def capture_err(func):
 @bot.on_message(filters.command("start"))
 async def start(_, message):
   await message.reply_text(
-    text="""**Hello {message.from_user.mention()}**
+    text=f"""**Hello {message.from_user.mention()}**
 
 **I'm carbon generator. I can convert your text/reply to carbon.**
 
