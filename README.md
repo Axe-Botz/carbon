@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/Axe-Botz/carbon"><img src="https://telegra.ph/file/be6829584bbfe5f15dda2.png"></a></p> 
+<p align="center"><a href="https://github.com/Axe-Botz/carbon"><img src="https://te.legra.ph/file/af7a6e916dd3042179442.jpg"></a></p> 
 
 ### ✨ Developer
 * @tfZeno (ZenoXD)
