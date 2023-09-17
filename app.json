@@ -1,0 +1,40 @@
+{
+  "name": "Carbon Generator Bot",
+  "description": "A Telegram bot to generate carbon image of your text or reply.",
+  "keyword": [
+    "carbon generator",
+    "telegram",
+    "carbon",
+    "python bot",
+    "bot"
+  ],
+  "repository": "https://github.com/Axe-Botz/carbon",
+  "env": {
+    "API_ID": {
+      "description": "get this from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "get this from my.telegram.org",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Bot Token get from @BOTFATHER",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your ID Number get at @AxeChatz",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
