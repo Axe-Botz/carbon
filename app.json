@@ -1,6 +1,7 @@
 {
   "name": "Carbon Generator Bot",
   "description": "A Telegram bot to generate carbon image of your text or reply.",
+  "logo": "https://te.legra.ph/file/9c8737ba52fb48ca476c1.jpg",
   "keyword": [
     "carbon generator",
     "telegram",
