@@ -1,9 +1,17 @@
-from pyrogram import Client
+## DEVELOPED BY #ZENO 
+## This software is part of AxeBotz 
 
-API_ID = 7745211
-API_HASH = "2ea42beae4e2410ce32eeaec0bdfd18e"
-TOKEN = "6443975769:AAEmiiKJ76HncAoNfRTM0FGiQ8JBu7qklYY"
-OWNER_ID = 6117169123
+from pyrogram import Client
+from os import getenv
+from dotenv import load_dotenv
+
+load_dotenv()
+
+
+API_ID = getenv("API_ID")
+API_HASH = getenv("API_HASH")
+TOKEN = getenv("TOKEN")
+OWNER_ID = getenv("OWNER_ID")
 
 bot = Client(
   "CARBON",
