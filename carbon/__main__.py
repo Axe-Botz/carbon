@@ -74,7 +74,7 @@ def capture_err(func):
 
 ## ---------------------------------------------------- ##
 
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command(["start", "help"]))
 async def start(_, message):
   await message.reply_text(
     text=f"""**Hello {message.from_user.mention()}**
